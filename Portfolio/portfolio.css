@@ -1,0 +1,50 @@
+.s1{
+    height: 40px;
+    width: 40px;
+    background-color:black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 9px;
+    margin-left: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.s1:hover{
+    background-color: rgb(20, 156, 219);
+    border: none;
+}
+.footer p{
+    color: rgb(13 ,172,13);
+}
+.store h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.store p:nth-child(2){
+    font-size: 18px;
+    color: greenyellow;
+}
+.store i{
+    font-size: 45px;
+}
+.store .card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.store .card:hover{
+    background: rgb(14, 148, 238);
+    color: white;
+}
+.store .card:hover .per1{
+    color: white;
+}
