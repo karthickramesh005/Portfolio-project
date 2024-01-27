@@ -1,3 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+P{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+    transition: all 0.4s;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item .hire:hover{
+    color: rgb(0, 0, 0);
+}
+.navbar-brand{
+    height: 50px;
+    width: 100px;
+    color: rgb(13, 69, 255);
+    font-size: 30px;
+}
+.nav-item a:hover{
+    color: rgb(0, 225, 255);
+}
+hire
+.btn1{
+    height: 45px;;
+    outline: none;
+    border: none;
+    background-color:rgb(20, 163, 219) ;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+}
+.btn1:hover{
+    background-color: black;
+}
+
+.navbar-toggler{
+    font-size: 23px;
+    color: black;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:35px;
+
+  color:white;
+ 
+  margin:auto;
+}
+.console-underscore {
+display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+.main{
+    justify-content: center;
+}
+.karthickimg{
+    width: 390px;
+    
+}
+@media (width < 800) {
+    .karthickimg{
+        width:10%;
+        height: 1%;
+        
+    }
+}
+
+
+section{
+    overflow-x: hidden;
+}
+
+
+
+section .skill1{
+    transition: 1s;
+}
+.skill .skill1{
+    transform:translateX(-30%);
+}
+.skill.show-animate .skill1{
+    transform:translateX(0);
+}
+section .skill2{
+    transition: 1s;
+}
+.skill .skill2{
+    transform:scale(.7);
+}
+.skill.show-animate .skill2{
+    transform:scale(1);
+}
+section .project1{
+    transition: 1s;
+}
+.project .project1{
+    transform:scale(.7);
+}
+.project.show-animate .project1{
+    transform:scale(1);
+}
+section .resume1{
+    transition: 1s;
+}
+.resume .resume1{
+    transform:translateX(-30%);
+}
+.resume.show-animate .resume1{
+    transform:translateX(0);
+}
+section .resume2{
+    transition: 1s;
+}
+.resume .resume2{
+    transform:translateX(30%);
+}
+.resume.show-animate .resume2{
+    transform:translateX(0);
+}
+section .outher1{
+    transition: 1s;
+}
+.outher .outher1{
+    transform:scale(1);
+}
+.outher.show-animate .outher1{
+    transform:translateX(0);
+}
+
+
+
+
+
+
+
 .s1{
     height: 40px;
     width: 40px;
@@ -16,6 +175,18 @@
     background-color: rgb(20, 156, 219);
     border: none;
 }
+
+.skill .card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.skill .card:hover{
+    background: rgb(0, 4, 7);
+    color: white;
+}
+
 .footer p{
     color: rgb(13 ,172,13);
 }
@@ -47,4 +218,78 @@
 }
 .store .card:hover .per1{
     color: white;
+}
+.resume .card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.resume .card:hover{
+    background: rgb(255, 217, 2);
+    color: white;
+}
+.resume2 .Certification{
+    border-radius: 0;
+    border: none;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.resume2 .Certification:hover{
+    background: rgb(255, 217, 2);
+    color: black;
+}
+.resume2 .Achievements{
+    border-radius: 0;
+    border: none;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.resume2 .Achievements:hover{
+    background: rgb(255, 217, 2);
+    color: black;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+
+}
+.outher input{
+    height: 40px;
+    width: 300px;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.outher textarea{
+    height: 100px;
+    width: 300px;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.cbtn{
+    height: 50px;
+    width: 80px;
+    outline: none;
+    border: none;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    font-weight: lighter;
+    transition: all 0.03s;
+
+}
+.cbtn:hover{
+    background: wheat;
 }
