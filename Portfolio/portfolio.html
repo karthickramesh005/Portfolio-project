@@ -3,86 +3,93 @@
   <title>⚡ Portfolio</title>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>portfolio</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel ="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    
 </head>
-<body class="bg" >
-    <nav id="navbars-example2 "  class="navbar container-fluid navbar-expand-lg sticky-top bg-light-subtle px-3 mb-3">
-      <div class="container-fluid">
-            <a class="navbar-brand fs-1" href="#">portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" 
-            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-             aria-expanded="false" aria-label="Toggle navigation">
-
+<body style="margin: auto;">
+                           <!--===========================Heading =========================-->
+    <nav   class="navbar navbar-expand-lg pb-3 sticky-top bg-light-subtle ">
+      <div class="container">
+            <a class="navbar-brand" href="#">portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-           <div class="offcanvas-header">
-            <type="button" class="btn-close justify-content-sm-end" data-bs-dismiss="offcanvas" aria-label="Close"> </button>
-           </div>
-           <div class="offcanvas-body">
-              <ul class="nav nav-pills h4 navbar-toggle bg-light-subtle " style="position: absolute;top:10px; right: 50px;">
-          <li class="nav-item " style ="margin: 8px;">
+
+            <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+           <!--<div class="offcanvas-header">
+            <button class="btn-close justify-content-sm-end" data-bs-dismiss="offcanvas" aria-label="Close"> </button>
+           </div>-->
+           
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0  " >
+          <li class="nav-item ">
             <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Home</a>
           </li>
-          <li class="nav-item" style ="margin: 8px;">
+          <li class="nav-item" >
             <a class="nav-link " aria-current="page" href="#scrollspyHeading2">Skills</a>
           </li>
-          <li class="nav-item" style ="margin: 8px;">
+          <li class="nav-item" >
             <a class="nav-link " aria-current="page" href="#scrollspyHeading3">Projects</a>
           </li>
-          <li class="nav-item" style ="margin: 8px;">
+          <li class="nav-item">
             <a class="nav-link" aria-current="page"  href="#scrollspyHeading4">Resume</a>
           </li>
-          <li class="btn btn-dark  rounded-pill" style ="margin: 8px;">
-            <a class="nav-link  " href="https://www.linkedin.com/in/karthickramesh005" style="padding: 0px;"><h4>Hire Me</h4></a>
+          <li class=" nav-item  " >
+            <a class="nav-link  btn btn-outline-info  hire" aria-current="page" href="https://www.linkedin.com/in/karthickramesh005">Hire Me</a>
           </li>
             </ul>
           
-        </div>
+       
             </div>
       </div>
       </nav>
-      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" 
-      id = "#scrollspyHeading1" style=" height: 500px;   background: linear-gradient(to right,rgb(0, 185, 247),rgb(56, 250, 56));" class=" position-relative border border-dark border-3 p-3 rounded-2 container-fluid" tabindex="0" >
       
-       <!-- Home -->
-       <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-6 ">
+             <!--======================================Home========================================-->
+
+      <section data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"  
+      id = "#scrollspyHeading1" style="background: linear-gradient(to right,rgb(0, 185, 247),rgb(56, 250, 56));" class="main position-relative border border-dark border-3 p-3 rounded-2 container-fluid" tabindex="0" >
+    
+      
+       <div class=" main1 container mt-5">
+        <div class="row center ms-lg-2">
+          <div class="col-md-6  " >
             
-              <div class="row no-gutters ">
-                <div class="h-10s0 w-100 container ">
-                  <img src="K:\phone\DCIM\Camera\karthick.jpg" class="img-fluid  rounded border-black border border-black" alt="Karthick R">
+              <div class="  ">
+                <div class=" container-fluid">
+                  <img src="K:\Favorite\Karthick R (0.1).png" class="karthickimg img-fluid " alt="Karthick R">
                 </div>
           </div>
         </div>
-          <div class="col-md-6 ">
-            <div class=" container">
+          <div class="col-md-5 mt-5">
+            <div class=" container mt-5">
               <div class="card-body  pt-2 " >
                 <h5 class=" card-title display-6" style="font-family: 'Merriweather', serif;"><strong>Hello,I am Karthick R</strong></h5>
-                <p class="card-text display-5 text-warning mt-0" style="font-family: 'Lora', serif;">Software Engineer</p>
+                <p class="card-text display-5 text-warning mt-0" style="font-family: 'Lora', serif;">
+                  <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+                </p>
                 <p class="card-text fs-3 text-secondary"> College Final Year student.</small></p>
                 <div class="card-group container-fluid">
                 <a type="button" href ="https://www.linkedin.com/in/karthickramesh005" class="btn btn-dark btn-lg">Hire Me</a>
-                <a type="button" href = "file:///K:/Resume/Karthick%20resume(1).pdf"  class=" ms-5 btn btn-primary btn-lg">Resume</a></div>
+                <a type="button" href = "C:\Users\karthick R\Downloads\Karthick R (Resume).pdf"  class=" ms-5 btn btn-primary btn-lg">Resume</a></div>
                 
-                <div class="col-lg-5 py-2">
+                <div class="col-lg-10 py-2">
                   <div class="s1">
-                    <span><i class="bi bi-envelope"></i></span>
+                    <span><a style="text-decoration: none; color: aliceblue;" href ="C:\Users\karthick R\Downloads\Karthick R (Resume).pdf" >C V</a></span>
                   </div>
                   <div class="s1">
                     <span><i class="bi bi-twitter-x"></i></span>
                   </div>
                   <div class="s1">
-                    <span><i class="bi bi-whatsapp"></i></span>
+                    <span><a style="text-decoration: none; color: aliceblue;"  href ="https://www.linkedin.com/in/karthickramesh005" ><i class="bi bi-linkedin" ></i></a></span>
                   </div>
                   <div class="s1">
-                    <span><i class="bi bi-instagram"></i></span>
+                    <span><a style="text-decoration: none; color: aliceblue;"  href ="https://github.com/karthickramesh005" ><i class="bi bi-github"></i></a></span>
                   </div>
                 </div>
 
@@ -92,23 +99,21 @@
           </div>
         
      
-            
-          
         </div>
        </div>
-       
-       
-          
-
-        </div>
-        <!-- Skills-->
+      
+      </section>
+        
+      
+        <!-- =====================================Skills======================================-->
+        <section class="skill mt-2">
         <div id="scrollspyHeading2" class="container-fluid border border-dark border-3 mt-5 mw-100 mh-100 ">
           
-      <div class="fs-1 text-secondary h2 " style="font-style:bold;"><strong>My Skills</strong></div><hr class="ms-5 w-100">
+      <div class="fs-1 text-secondary h2 " style="font-style:bold;"><strong>My Skills</strong></div><hr class="ms-3 w-100">
       <p class="h6">Here are My Skills</p>
-      <div class="container-fluid mt-5">
+      <div class="container mt-5">
         <div class="row">
-          <div class="col-md-6 well">
+          <div class=" skill1 col-md-6 well">
             <div class="ms-5 mt-5">
               <div class="mt-5 h5">HTML</div>
                 <div class="progress w-100 mt-3">
@@ -128,63 +133,66 @@
                 </div>
               </div>
           </div>
-          <div class="col-md-6  position-relative">
-            <div class="  container ms-3  mt-1 p-3 "  >
+
+          <div class="skill2 container text-center mt-5">
+            <div class="row" >
               
-                <div class="card bg-black shadow-lg p-3 mb-5 w-25 h-25 ">
-                  <img src="C:\Users\karthick R\Downloads\icons8-python (1).svg" class="card-img-top w-75 h-75 ms-3" alt="Python">
+              <div class="col" >
+
+                <div class="card bg- shadow-lg  col-lg-3 rounded-4" style="width: 12rem;">
+                  <img style = "height: 100px; width: 100px;margin-left: 40px;" src="C:\Users\karthick R\Downloads\icons8-python (1).svg" class="card-img-top " alt="Python">
                   <div class="card-body">
-                    <h5 class="card-title  text-light">Python</h5>
+                    <h5 class="card-title  ">Python</h5>
+                  </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-lg rounded-4 "  style="width: 12rem;">
+                  <img style = "height: 100px; width: 100px;margin-left: 40px;" src="C:\Users\karthick R\Downloads\icons8-javascript.svg" class="card-img-top " alt="Javascripy">
+                  <div class="card-body">
+                    <h5 class="card-title ms-1 mt-0 ">Javascript</h5>
+                  </div>
+              </div>
+              </div>
+              <div class="col">
+                <div class="card  shadow-lg rounded-4"  style="width: 12rem;">
+                  <img style = "height: 90px; width: 90px; margin-left: 40px;" src="C:\Users\karthick R\Downloads\icons8-communication-64.png" class="card-img-top " alt="React">
+                  <div class="card-body mt-3 p-0 pb-4">
+                    <h5 class="card-title ">Communication</h5>
                   </div>
               
             </div>
-            
-              <div class="card bg-black shadow-lg  mb-5 mb-5 w-25 h-25" >
-                <img src="C:\Users\karthick R\Downloads\icons8-javascript.svg" class="card-img-top w-75 h-75 mt-0 ms-3" alt="Javascripy">
-                <div class="card-body">
-                  <h5 class="card-title ms-1 mt-0 text-light">Javascript</h5>
-                </div>
-            </div>
-          <br>
-          <div class=" w-100 ms-5 position-absolute start-50 top-0">
-            <div class="card bg-black shadow-lg  mb-5 mt-3 w-25 h-25" >
-              <img src="C:\Users\karthick R\Downloads\icons8-communication-64.png" class="card-img-top  w-50 h-50 ms-4 mt-4 ms-md-5 me-5 pe-3" alt="React">
-              <div class="card-body p-0 pb-5">
-                <h5 class="card-title mt-3 ms-2 pt-3 text-light">Communication</h5>
               </div>
-          
-        </div>
-        
-          <div class="card bg-black shadow-lg  mb-5  w-25 h-25" >
-            <img src="C:\Users\karthick R\Downloads\icons8-problem-solving-64 (1).png" class="card-img-top w-50 h-50 ms-5 mt-3" alt="Powerpoint">
-            <div class="card-body">
-              <h5 class="card-title ms-4 text-light">problem<br>solving</h5>
-            </div>
-        </div>
-      </div>
-      
-    
+              <div class="col">
+                <div class="card  shadow-lg  rounded-4"  style="width: 12rem;">
+                  <img style = "height: 100px; width: 100px;margin-left: 40px;" src="C:\Users\karthick R\Downloads\icons8-problem-solving-64 (1).png" class="card-img-top " alt="Powerpoint">
+                  <div class="card-body">
+                    <h5 class="card-title ">problem solving</h5>
+                  </div>
+              </div>
+              </div>
             
 
-            </div>
           </div>
+
         </div>
       
 
 
         </div></div>
-
- <!-- Projects-->
+      </section>
+ <!-- =========================================Projects==================================================-->
+ <section class="project">
  <div id="scrollspyHeading3" class="container-fluid border border-dark border-3 mt-5 mw-100 mh-100 ">
           
-  <div class="fs-1 text-secondary h2 " style="font-style:bold;"><strong>My Projects</strong></div><hr class="ms-5 w-100">
+  <div class="fs-1 text-secondary h2 " style="font-style:bold;"><strong>My Projects</strong></div><hr class="ms-3 w-100">
   <p class="h6">Here are My Projects</p>
 
 
   <section class="store py-5 bg-light text-center">
     <div class="container py-5">
   
-      <div class="row">
+      <div class="row project1">
         
         <div class="col-lg-3 mt-2">
           <div class="card">
@@ -230,24 +238,26 @@
 
  </div>
 
+</section>
 
-
-        <!--Resume-->
+        <!--=========================================Resume===================================================-->
+        <section class="resume">
         <div id="scrollspyHeading4" class="container-fluid border border-dark border-3 mt-5 mw-100 mh-100"  >
-          <div class="fs-1 text-secondary h2 " style="font-style:bold;"><strong>My Resume</strong></div><hr class="ms-5 w-100">
+          <div class="fs-1 text-secondary h2 " style="font-style:bold;"><strong>My Resume</strong></div><hr class="ms-3 w-100">
       <p class="h6">Here are My Qualification</p>
 
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class=" resume1 col-md-6">
             <div class="ms-5 mt-3 container">
               <button class="p-3 h5 ms-5 border border-3 border-warning-subtle rounded-5 bg-light"> Education</button>
             </div>
     
-            <div class="card  mt-5 mb-5 border border-warning shadow-lg p-3   container" >
+            <div class=" card  mt-5 mb-5 border border-warning shadow-lg p-3   container" >
               <div class="card-body">
                 <h4 class="card-title">BCA, Arts and Science </h4>
                 <p class="card-text text-secondary">Dhandraj Bain Jain College,Chennai.</p>
+                <h5>CGPA 8.3/10*</h5>
                 <p class="card-text text-warning"><strong> Year 2021 To Year 2024</strong></p>
                 <p class="card-text text-secondary" style="font-family: Josefin Sans,sans-serif;font-family: Roboto,sans-serif;">
                   "As an undergraduate student, I have a good understanding of web development technologies and Python such as HTML, CSS, JavaScript
@@ -256,20 +266,47 @@
                     I also have skills in Python and  Data structures and Algorithms."
                 </p>
               </div> 
+              <div class="card-body">
+                <h4 class="card-title">12th, Computer Application </h4>
+                <p class="card-text text-secondary">Sannathi Hir Sec School,Vandavasi.</p>
+                <h5>Persent 85.66 %</h5>
+                <p class="card-text text-warning"><strong> Year 2019 To Year 2021</strong></p>
+                <p class="card-text text-secondary" style="font-family: Josefin Sans,sans-serif;font-family: Roboto,sans-serif;">
+                  "As a graduated in the Computer Application group from 12th standard, 
+                  I possess a solid foundation in computer Science. I have demonstrated strong analytical and problem-solving skills.
+                  Possessing effective communication skills and the ability to work collaboratively in a team environment."
+                </p>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">10th Standerd </h4>
+                <p class="card-text text-secondary">Govn Hir Sec School,Velachery.</p>
+                <p class="card-text text-warning"><strong> Year 2017 To Year 2019</strong></p>
+                <h5>Persent 70.8 %</h5>
+                <p class="card-text text-secondary" style="font-family: Josefin Sans,sans-serif;font-family: Roboto,sans-serif;">
+                  "As a  10th-grade graduate, I bring a solid academic knowledge and a passion for learning to any role.
+                   Proficient in fundamental subjects.
+                  "
+                </p>
+              </div>  
             </div>
           </div>
-              <div class = "col-md-6 ">
-                <div class=" ms-5 container">
+              <div class = " resume2 col-md-5 ">
+                <div class=" ms-3 container">
                   <div class="ms-5 mt-3 container">
                     <button class="p-3 h5 ms-5 border border-3 border-warning-subtle rounded-5 bg-light"> Certification</button>
                   </div>
           
-                  <div class="card  mt-5 mb-5 border border-warning shadow-lg p-1  container" >
+                  <div class="card Certification mt-5 mb-5 border border-warning shadow-lg p-1  container" >
                     <div class="card-body">
                       <ol type="none">
-                        <li class="h5 m-2">Python Programming [Greens Tech]</li>
-                        <li class="h5 m-2">Technicle Quiz & Debugging</li>
-                        <li class="h5 m-2">Career Essentials in Software Development by Microsoft and LinkedIn</li>
+         
+                        <li class="h5 m-2">Python Fundamentals for Beginners - Great Learning</li>
+                        <li class="h5 m-2">Python Fundamentals and Advance Concepts - Greens Technologys</li>
+                        <li class="h5 m-2">Mathematical Modeling - Chengalvaraya Naicker Arts and Science College</li>
+                        <li class="h5 m-2">Technical Quiz and Debugging - Jain It
+                          Vista
+                          </li>
+                        <li class="h5 m-2">Career Essentials in Software Development by Microsoft - Linked In</li>
                       </ol>
                    </div>
                   </div>
@@ -278,12 +315,15 @@
                   <button class="p-3 h5 ms-5 border border-3 border-warning-subtle rounded-5 bg-light"> Achievements</button>
                 </div>
         
-                <div class="card  mt-4 mb-5 border border-warning shadow-lg p-1   container" >
+                <div class="card Achievements mt-4 mb-5 border border-warning shadow-lg p-1   container" >
                   <div class="card-body">
                     <ol type="none">
-                        <li class="h5 m-2">Methematics Quiz</li>
-                        <li class="h5 m-2">ADZAP</li>
-                        <li class="h5 m-2">Technicle Quiz & Debugging</li>
+
+                        <li class="h5 m-2">Problem Solving - [GeeksForGeeks][HackerRank]</li>
+                        <li class="h5 m-2">HackerRank Stars</li>
+                        <li class="h5 m-2">ADZAP - Jain It Vista</li>
+                        <li class="h5 m-2">Technical Quiz - Jain It Vista</li>
+                        <li class="h5 m-2">Debugging - Jain It Vista</li>
                       </ol>
                   </div> 
                 </div> 
@@ -293,38 +333,62 @@
      
 
 
-        </div></div></div></div>
-        <!--Outhers-->
-        <div class="container-fluid border border-dark border-3 mt-5 mw-100 mh-100 bg-warning"  >
-          <div class="container text-center ms-5 mt-3"><h1>Let's Talk</h1>
-            <div class="row row-cols-5 ms-5 mt-5 justify-content-center">
-              <div class="col ms-5 justify-content-end">
-                <img src="C:\Users\karthick R\Downloads\icons8-instagram-50.png" class="" alt="Instragram"><br>
-                <a hreh ="#"><h5>Instragam</h5></a>
-              </div>
-              
-              <div class="col ">
-                <img src="C:\Users\karthick R\Downloads\icons8-github-50.png" class="" alt="Instragram"><br>
+        </div></div></div></div></section>
+        <!--==================================== Contect =======================================================-->
+        <section class="outher py-5">
+        <div class=" py-3 container-fluid border border-dark border-3 mt-5 mw-100 mh-100 bg-warning"  >
+          <div class="container text-center ms-5 mt-3"><h1>Let's Talk</h1></div>
+           
+              <div class="  outher1 row py-3 ">
+          
+                <div class="col-lg-6">
+              <div class="row pt-2 ms-lg-5">
                 
-                <a type ="button" href ="https://github.com/karthickramesh005" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"><h5 class="">GitHub</h5></a>
+                <div class="col-lg-3 col-sm-3 col-2">
+                  <div class="circle ms-lg-5">
+                    <span><i class="bi bi-envelope-fill "></i></span>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-8 col-8 pt-2"><p>karthickramesh005@gmail.com</p></div>
               </div>
-              <div class="col">
-                <img src="C:\Users\karthick R\Downloads\icons8-whatsapp-50.png" class="" alt="Instragram"><br>
-                <a hreh ="#"><h5>whatsapp</h5></a>
+              <div class="row pt-2 ms-lg-5">
+                <div class="col-lg-3 col-sm-3 col-2">
+                  <div class="circle ms-lg-5">
+                    <span><i class="bi bi-telephone-fill"></i></i></span>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-8 col-8 pt-1"><p>+91 8072401377</p></div>
               </div>
-            </div><h6 class="mt-5 mb-3" >| Copyright © 2023 Portfolio. All rights reserved |</h6>
-          </div>
-        </div>
+              <div class="row pt-2 ms-lg-5">
+                <div class="col-lg-3 col-sm-3 col-2">
+                  <div class="circle ms-lg-5">
+                    <span><i class="bi bi-geo-alt-fill"></i></i></span>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-8 col-8 pt-2"><p>4/252,Indrapuri 5th cross street,Kovilambakkam,Chennai-29</p></div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <input type="text" placeholder="Name"><br>
+              <input type="text" placeholder="Email"><br>
+              <input type="text" placeholder="Phone"><br>
+              <textarea name="" id="" placeholder="Message"></textarea><br>
+              <button class="cbtn mt-3 ms-lg-5">Send Now</button>
               
+            </div>
+            <div style="text-align: center;">
+            <h6 class="mt-5  " >| Copyright © 2023 Portfolio. All rights reserved |</h6></div>
+              </div>
               
-          
-          
-        
-
-        
-        
+            </div>
+  
       
+      </section>
+              
+  
 <script src="./assets/js/jquary.min.js"></script>
+<script src="script.js"></script>
 <script src="./assets/js/bootstrap.min.js"></script>
 </body>
+  
 </html>
